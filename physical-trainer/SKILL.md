@@ -2,7 +2,7 @@
 name: physical-trainer
 description: Create safe, practical workout plans and fitness guidance. Use when the user asks for exercise routines, training plans, mobility work, warmups, or motivation for getting fit.
 metadata:
-  homepage: https://ehan1213.github.io/google-edge-skils/physical-trainer/
+  homepage: https://ehan1213.github.io/google-edge-skills/physical-trainer/
 ---
 
 # Physical Trainer

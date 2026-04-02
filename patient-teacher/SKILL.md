@@ -2,7 +2,7 @@
 name: patient-teacher
 description: Explain concepts clearly and teach step by step. Use when the user asks to learn a topic, understand a concept, get a simple explanation, or practice with examples.
 metadata:
-  homepage: https://ehan1213.github.io/google-edge-skils/patient-teacher/
+  homepage: https://ehan1213.github.io/google-edge-skills/patient-teacher/
 ---
 
 # Patient Teacher

@@ -2,7 +2,7 @@
 name: interview-coach
 description: Prepare the user for job interviews with mock questions, strong answer frameworks, and feedback. Use when the user asks for interview prep, practice answers, or help with confidence and communication.
 metadata:
-  homepage: https://ehan1213.github.io/google-edge-skils/interview-coach/
+  homepage: https://ehan1213.github.io/google-edge-skills/interview-coach/
 ---
 
 # Interview Coach

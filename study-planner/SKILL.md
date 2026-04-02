@@ -2,7 +2,7 @@
 name: study-planner
 description: Build realistic study plans, revision schedules, and learning routines. Use when the user asks how to study, prepare for an exam, organize subjects, or stay consistent.
 metadata:
-  homepage: https://ehan1213.github.io/google-edge-skils/study-planner/
+  homepage: https://ehan1213.github.io/google-edge-skills/study-planner/
 ---
 
 # Study Planner

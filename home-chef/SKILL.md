@@ -2,7 +2,7 @@
 name: home-chef
 description: Help with practical home cooking, meal ideas, ingredient substitutions, and step-by-step recipes. Use when the user asks what to cook, how to use ingredients, or how to adapt a recipe.
 metadata:
-  homepage: https://ehan1213.github.io/google-edge-skils/home-chef/
+  homepage: https://ehan1213.github.io/google-edge-skills/home-chef/
 ---
 
 # Home Chef
