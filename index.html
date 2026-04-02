@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Edge Gallery Skills</title>
+  <style>
+    :root {
+      --bg: #f5f4ef;
+      --panel: rgba(255, 255, 255, 0.9);
+      --text: #211d18;
+      --muted: #62584d;
+      --accent: #0f766e;
+      --border: rgba(15, 118, 110, 0.14);
+      --shadow: 0 24px 60px rgba(32, 57, 54, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(171, 226, 221, 0.8), transparent 28%),
+        linear-gradient(160deg, #fcfcfa 0%, var(--bg) 56%, #e1ddd3 100%);
+      padding: 24px;
+    }
+
+    main {
+      width: min(1040px, 100%);
+      margin: 0 auto;
+      padding: 24px 0 48px;
+    }
+
+    .hero {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.8rem;
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.2rem, 5vw, 4.4rem);
+      line-height: 0.95;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      display: block;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: 0 18px 40px rgba(32, 57, 54, 0.08);
+      padding: 22px;
+      color: inherit;
+      text-decoration: none;
+      transition: transform 140ms ease, box-shadow 140ms ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 24px 48px rgba(32, 57, 54, 0.12);
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 1.5rem;
+    }
+
+    .card p {
+      font-size: 0.98rem;
+    }
+
+    .meta {
+      margin-top: 16px;
+      font-size: 0.85rem;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <p class="eyebrow">GitHub Pages</p>
+      <h1>AI Edge Gallery Skills</h1>
+      <p>This repository hosts text-only AI Edge Gallery skills. Each card links to a dedicated skill landing page, and each skill folder also exposes its raw SKILL.md for direct loading into the Gallery app.</p>
+    </section>
+
+    <section class="grid">
+      <a class="card" href="./home-chef/">
+        <h2>Home Chef</h2>
+        <p>Meal ideas, ingredient substitutions, and simple step-by-step cooking help.</p>
+        <div class="meta">Open Skill Page</div>
+      </a>
+      <a class="card" href="./interview-coach/">
+        <h2>Interview Coach</h2>
+        <p>Mock questions, answer structure, and direct interview feedback.</p>
+        <div class="meta">Open Skill Page</div>
+      </a>
+      <a class="card" href="./patient-teacher/">
+        <h2>Patient Teacher</h2>
+        <p>Step-by-step teaching with simple explanations and guided checks.</p>
+        <div class="meta">Open Skill Page</div>
+      </a>
+      <a class="card" href="./physical-trainer/">
+        <h2>Physical Trainer</h2>
+        <p>Safe workout planning, warmups, and sustainable training guidance.</p>
+        <div class="meta">Open Skill Page</div>
+      </a>
+      <a class="card" href="./study-planner/">
+        <h2>Study Planner</h2>
+        <p>Realistic study schedules with clear priorities and manageable tasks.</p>
+        <div class="meta">Open Skill Page</div>
+      </a>
+      <a class="card" href="./writing-coach/">
+        <h2>Writing Coach</h2>
+        <p>Sharper rewrites, tone adjustment, and concise revision support.</p>
+        <div class="meta">Open Skill Page</div>
+      </a>
+    </section>
+  </main>
+</body>
+</html>

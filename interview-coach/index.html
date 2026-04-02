@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interview Coach Skill</title>
+  <style>
+    :root {
+      --bg: #eef3ff;
+      --panel: rgba(255, 255, 255, 0.9);
+      --text: #1c2748;
+      --muted: #4d5d8c;
+      --accent: #2457d6;
+      --border: rgba(36, 87, 214, 0.14);
+      --shadow: 0 22px 56px rgba(29, 56, 133, 0.14);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Trebuchet MS", Verdana, sans-serif;
+      color: var(--text);
+      background: linear-gradient(160deg, #f9fbff 0%, var(--bg) 50%, #dce5ff 100%);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+    main {
+      width: min(760px, 100%);
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 32px;
+    }
+    .eyebrow { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.8rem; color: var(--accent); }
+    h1 { margin: 10px 0 12px; font-size: clamp(2rem, 4vw, 3.3rem); }
+    p { color: var(--muted); line-height: 1.6; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; margin: 24px 0 28px; }
+    a { color: inherit; text-decoration: none; }
+    .button { padding: 12px 18px; border-radius: 999px; border: 1px solid var(--border); background: white; font-weight: 700; }
+    .button.primary { background: var(--accent); color: white; border-color: transparent; }
+    ul { padding-left: 20px; }
+    li { margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">AI Edge Gallery Skill</div>
+    <h1>Interview Coach</h1>
+    <p>Mock interview support with practical question practice, clear answer structure, and direct feedback.</p>
+    <div class="actions">
+      <a class="button primary" href="./SKILL.md">View SKILL.md</a>
+      <a class="button" href="../">All Skills</a>
+    </div>
+    <ul>
+      <li>Supports role-specific interview prep.</li>
+      <li>Runs one-question-at-a-time mock interviews.</li>
+      <li>Focuses feedback on clarity, specificity, and credibility.</li>
+    </ul>
+  </main>
+</body>
+</html>
